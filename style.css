@@ -1,0 +1,130 @@
+body {
+    background-color: #0f172a;
+    font-family: 'inter', sans-serif;
+    color: #94a3b8;
+    font-size: 16px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* profile */
+.profile h1 {
+    font-size: 40px;
+    color: #e2e8f0;
+    margin-bottom: 10px;
+}
+.profile h3 {
+    color: #e2e8f0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.tag-line {
+    color: #94a3b8;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* nav link */
+.nav-links {
+    margin-top: 20px;
+}
+.nav-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+.nav-links a:hover {
+    color: #e2e8f0;
+   transform: scale(1.1);
+}
+
+/* main content */
+.main-content {
+    padding: 0px 50px 0px 50px;
+    margin: 0px 20px 0px 20px;
+}
+.main-content a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+.main-content a:hover {
+    color: rgb(4, 186, 218);
+}
+
+/* projects */
+.projects{
+    margin: 70px 0;
+}
+.projects-main a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+/* experience */
+.experience-main{
+    list-style-type: none;
+    padding: 0;
+}
+.image1, .image2 {
+    display: flex;
+    gap: 20px;;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+.image1 img:hover, .image2 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+.image1 img {
+    width: 200px;
+    height: auto;
+}
+.image1 a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+.image2 img {
+    width: 200px;
+    height: auto;
+}
+.image2 a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* footer */
+.footer {
+    padding: 0px 50px 0px 50px;
+    margin: 70px 20px 70px 20px;
+}
+.social-links a{
+    display:flex;
+    color: #94a3b8;
+    text-decoration: none;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+.social-links a:hover {
+    color: rgb(4, 186, 218);
+}
+.copyright {
+    color: #94a3b8;
+   font-size: 12px;
+   margin-top: 20px;
+}
