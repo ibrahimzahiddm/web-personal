@@ -128,3 +128,21 @@ body {
    font-size: 12px;
    margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 0px 20px 0px 20px;
+        margin: 0px 10px 0px 10px;
+    }
+    .projects{
+        margin: 50px 0;
+    }
+    .image1, .image2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image1 img:hover, .image2 img:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
+}
