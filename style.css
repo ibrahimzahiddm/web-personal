@@ -12,8 +12,14 @@ body {
 }
 
 /*  backsound */
-#backsound-music {
-    display: none;
+.backsound {
+    text-align: center;
+    margin-top: 5px;
+}
+.backsound-music {
+    width: 150px;
+    height: 30px;
+    transform: scale(0.8);
 }
 
 /* profile */
