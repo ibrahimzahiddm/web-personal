@@ -54,8 +54,8 @@ body {
 }
 .nav-links a:hover {
     color: #e2e8f0;
-   transform: scale(1.1);
-   font-weight: bold;
+    transform: scale(1.1);
+    font-weight: bold;
 }
 
 /* main content */
